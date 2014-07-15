@@ -1,6 +1,6 @@
 stringifyJSON
 
-check variable type
+    check variable type
 
 	If type is primitive value
 		if type is string
@@ -24,7 +24,7 @@ check variable type
 		
 
 
-Functions
+    Functions
 	check type
 	primitive
 	array
