@@ -1,6 +1,7 @@
 stringifyJSON
 
 check variable type
+
 	If type is primitive value
 		if type is string
 			return double quoted string
