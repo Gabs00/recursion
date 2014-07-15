@@ -20,6 +20,7 @@ check variable type
 				go to check variable type for value 
 				if additional properties add comma
 		set closing curly
+		
 
 
 Functions
