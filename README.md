@@ -10,3 +10,7 @@ Curly braces hold objects
 Square brackets hold arrays
 
 strings are double quoted
+
+getElementByClassName()
+
+Searches the document body for all elements with the specified class name
