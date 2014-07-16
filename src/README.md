@@ -1,7 +1,6 @@
 stringifyJSON
 
-    check variable type
-
+check variable type
 	If type is primitive value
 		if type is string
 			return double quoted string
@@ -24,8 +23,17 @@ stringifyJSON
 		
 
 
-    Functions
+Functions
 	check type
 	primitive
 	array
 	object
+
+getElementsByClassName
+
+	Check Element
+		if element has class name
+			add to list
+		if element has child nodes
+			for each element
+				go to check element
