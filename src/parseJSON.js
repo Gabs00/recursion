@@ -28,24 +28,6 @@ var parseJSON = function(json) {
 	Tokenizer.prototype = {};
 	Tokenizer.prototype.constructor = new Tokenizer();
 
-	//must be implimented
-	//use grammar rules here
-	Tokenizer.prototype.expect = function(func, args){
-	    //must be implimented
-	    if(typeof func === 'function'){
-	        this.expect = func;
-	            if(args !== undefined){
-	                this.expect.apply(this, args);
-	            }
-	            if(this.nextValue !== null){
-	                this.nextDescend.expect(func);
-	            }
-	        
-	    }    
-	    else{
-	        throw new Error('You must impliment this function before using');
-	    }
-	}
 	//returns a reference to the next Tokenizer object
 	Tokenizer.prototype.nextToken = function(){
 	    var next = this;
