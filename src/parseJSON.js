@@ -13,7 +13,7 @@ var parseJSON = function(json) {
 	    if(string){
 	        this.string = (parent) ? parent.string: string;
 	        this.parent = (parent) ? parent.value:null;
-	        
+
 	        this.chars = string.split('');
 	        this.value = this.chars.shift();
 
@@ -59,7 +59,7 @@ var parseJSON = function(json) {
 	}
 	//returns the remaining string;
 	Tokenizer.prototype.remaining = function(){
-	    var string = this.chars.slice().join('');
+	    var string = this.chars.join('');
 	    if(string.length > 0){
 	        return string;
 	    }
