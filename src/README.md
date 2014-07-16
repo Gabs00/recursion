@@ -37,3 +37,13 @@ getElementsByClassName
 		if element has child nodes
 			for each element
 				go to check element
+
+ParseJSON
+http://repl.it/V4V
+	create char array from string
+		check next char
+			if char is open token
+				expect matching close token 
+				go to check next char
+			if char is another open token
+				expect matching close token before parent open token
